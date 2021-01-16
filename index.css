@@ -1,0 +1,35 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 670px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+
+}
+
+
+
+#grad1 
+{
+    height:200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, yellow); /* Standard syntax (must be last) */
+}
+
+li 
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+
+
+#grad2 
+{
+    height:200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, orange, red); /* Standard syntax (must be last) */
+}
